@@ -246,7 +246,7 @@ main{
 
     height: 550px;
     
-    background-image: url(/images/olympic.png);
+    background-image: url("/images/olympic.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-color: darkblue;
