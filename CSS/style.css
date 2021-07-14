@@ -1,0 +1,522 @@
+
+/* --common
+---styles & utilites------ */
+body{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background: #FFFFFF;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+/* header-nav-bar */
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    position: sticky;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    width: 79px;
+    height: 25px;
+    background-image: linear-gradient(green,orange);
+    border-radius: 7px;
+    font-size: 1.3em;
+    padding: 0 10px;
+    color: white;
+}
+.nav-bar a:hover{
+    background-image: linear-gradient(orange,blue);
+}
+
+
+.log-in{
+    position: relative;
+    right: -300px;
+    width: 70px;
+    height: 25px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+.link-login{
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+/* -----------banner section
+ .........styles*/
+
+
+ .banner-container{
+    display: flex;
+     height: 677px;
+     background-color: #2D25A0;
+
+    
+ }
+ .banner-title{
+    
+    
+    display: flex;
+    flex-direction: column;
+
+ }
+ 
+ .banner-one{
+        margin: 0; 
+        width: 485px;
+        height: 230px;
+        position: absolute;
+        left: 156px;
+        top: 207px; 
+ }
+ .title-part{
+    margin: 0;;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    line-height: 77px;
+    
+ }
+ .banner-two{
+   
+     position: absolute;
+    
+     left: 156px;
+     top: 464px;
+     background: #E02C6D;
+     height: 44px;
+     width: 168px;
+     padding: 10px, 24px, 10px, 24px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+
+ }
+ .banner-two:hover{
+     background-image: linear-gradient(orange,cyan);
+ }
+ .link-button{
+   
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    position: static;
+    width: 88px;
+    height: 24px;
+    left: 24px;
+    top: 10px;
+    margin: 0  8px;
+
+ }
+ .arrow{
+    color: #FFFFFF; 
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 120px;
+    top: 10px;
+    margin: 0px 8px;
+ }
+ .banner-image img{
+     width: 556px;
+     height: 438px;
+     position: absolute;
+     top: 153px;
+     right: 140px;
+     transition: transform 2s ease-in-out;
+
+ }
+.banner-container:hover .banner-image img{
+
+    transform: translateX(-200px);
+}
+
+
+ /* -------players---style--- */
+
+
+ .player-container{
+     
+    background: #FFFFFF;
+ }
+ .players{
+     display: grid;
+     grid-template-columns: repeat(3,330px);
+     grid-row-gap: 27px;
+     grid-column-gap: 30px;
+     justify-content: center;
+     margin-top: 70px;
+ }
+ .player{
+     padding: 15px;
+     width: 300px;
+     height: 474px;
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+ }
+ .player img{
+     width: 300px;
+     height: 256px;
+
+ }
+.player-name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+
+}
+.player-detail{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* -----copa result style.......... */
+
+.copa-final-result{
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+    /* background-color: honeydew; */
+    background-image: linear-gradient(grey,white);
+    margin-bottom: 20px;
+}
+.result-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    padding-left: 126px;
+}
+.team{
+    display: flex;
+    
+}
+.team img{
+    width: 50px;
+    height: 40px;
+}
+.brazil{
+    position: relative;
+    left: 300px;
+    top:70px;
+}
+.arjentina{
+    position: relative;
+    left: 1000px;
+    top:70px;
+}
+.result{
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    background-color: green;
+    position: relative;
+    left: 650px ;
+    top: 95px;
+
+}
+.score{
+   color: rgb(184, 184, 156);
+   line-height: 25px;
+}
+
+/* -------Coming soon Olympic footbal------- */
+
+
+.olympic-container{
+
+    height: 550px;
+    
+    background-image: url(/images/olympic.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: darkblue;
+   
+}
+.bg-img {
+    
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: rgb(31, 24, 24);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 20px;
+    left: 160px;
+  }
+  .top-left p{
+      color: limegreen;
+      font-size: 2vw;
+  }
+  .top-left p:hover{
+      background-color: limegreen;
+      color: mediumturquoise;
+  }
+  .top-left a{
+    padding: 15px;
+    text-decoration: none;
+    background-color: limegreen;
+    border-radius: 20px;
+
+}
+.top-left a:hover{
+    background-image: linear-gradient(orange,green);
+}
+  
+  
+  .middle {
+        background-color: rgba(116, 116, 212, 0.747);
+        border-radius: 15px;
+        box-shadow: 10px 10px 20px lightskyblue;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+  }
+  .day{
+      font-size: 100px;
+  }
+  
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+
+
+
+
+/* ----------footer----------- */
+
+footer{
+    background: #FFFFFF;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.logo{
+    margin-top: 20PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.football img{
+    height: 110px;
+    width: 483.87103271484375px;
+
+}
+.fab{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+   
+}
+.social-media{
+}
+.icon{
+    background-color: #a1a6c0;
+    font-size: 30px;
+   
+    padding:  5px;
+    margin: 0 14px 0 14px;
+   
+    align-items: center;
+    justify-content: center;
+}
+.footer-end{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* Making responsive using media query stye */
+
+
+@media only screen and (max-width:640px) {
+    main{
+width: 100%;
+    }
+    .log-in{
+        position: absolute;
+        right: -76px;
+    }
+    
+    .banner-container{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       height: 1000px;
+
+    }
+    .banner-title{
+        width: 100%;
+        position: absolute;
+        left: -100px;
+    }
+    
+ .banner-one{
+    margin: 0; 
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    left: 110px;
+    top: 100px; 
+}
+.title-part{
+    font-size: 50px;
+}
+    
+    .banner-image{
+        width: 100%;
+        position: absolute;
+        top: 450px;
+        right: -150px;
+    }
+    .players{
+        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    justify-content: center;
+
+
+    }
+    .team{
+        width: 100%;
+        display: flex;
+        
+    }
+    .team img{
+        width: 50px;
+        height: 40px;
+    }
+    .brazil{
+    
+        position: relative;
+        left: 30px;
+        top:70px;
+    }
+    .arjentina{
+        
+        position: relative;
+        left: 100px;
+        top:70px;
+    }
+    .result{
+        text-align: center;
+        
+        position: relative;
+        left: 65px ;
+        top: 95px;
+    
+    }
+    footer{
+        width: 100%;
+    }
+   
+    .football img{
+        width: 300px;
+    }
+   
+}
+@media only screen and (min-width:641px ) and (max-width:1000px) {
+    main{
+        width: 100%;
+    }
+    .log-in{
+        position: absolute;
+        right: -100px;
+    }
+    .banner-container{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       height: 1000px;
+
+    }
+    .banner-title{
+        width: 100%;
+        position: absolute;
+        left: -100px;
+    }
+    .banner-image{
+        width: 100%;
+        position: absolute;
+        top: 450px;
+        right: -150px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2,330px);
+        grid-column-gap: 5px;
+        
+
+    }
+    .team{
+        width: 100%;
+        display: flex;
+        
+    }
+    .team img{
+        width: 50px;
+        height: 40px;
+    }
+    .brazil{
+    
+        position: relative;
+        left: 60px;
+        top:70px;
+    }
+    .arjentina{
+        
+        position: relative;
+        left: 400px;
+        top:70px;
+    }
+    .result{
+        text-align: center;
+        
+        position: relative;
+        left: 230px ;
+        top: 95px;
+    
+    }
+    footer{
+        width: 100%;
+    }
+    .football img{
+        width: 300px;
+    } 
+}
