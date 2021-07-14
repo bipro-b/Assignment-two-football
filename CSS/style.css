@@ -524,6 +524,14 @@ width: 100%;
         top: 95px;
     
     }
+
+    .top-left{
+        position: absolute;
+        left: 50px;
+        top: 15px;
+    }
+    .top-left a{
+        font-size: 2vw;
     footer{
         width: 100%;
     }
