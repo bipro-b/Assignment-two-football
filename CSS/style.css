@@ -232,11 +232,12 @@ main{
     position: relative;
     left: 650px ;
     top: 95px;
-
+border-radius: 9px;
 }
 .score{
    color: rgb(184, 184, 156);
    line-height: 25px;
+
 }
 
 /* -------Coming soon Olympic footbal------- */
@@ -337,6 +338,9 @@ footer{
     width: 32px;
     border-radius: 50%;
    
+}
+.fab:hover{
+    background-image: linear-gradient(rgb(135, 135, 219),rgb(58, 63, 63));
 }
 .social-media{
 }
@@ -440,6 +444,14 @@ width: 100%;
         left: 65px ;
         top: 95px;
     
+    }
+    .top-left{
+        position: absolute;
+        left: 16px;
+        top: 15px;
+    }
+    .top-left a{
+        font-size: 2vw;
     }
     footer{
         width: 100%;
