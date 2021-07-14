@@ -245,7 +245,7 @@ main{
 .olympic-container{
 
     height: 550px;
-    background-image: url("/images/olympic.png");
+    background-image: url(../images/olympic.png);
     background-repeat: no-repeat;
     background-position:center;
     background-color: darkblue;
