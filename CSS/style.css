@@ -25,7 +25,7 @@ main{
     width: 100%;
     display: flex;
     justify-content:space-around;
-    background-color: black;
+  
     position: sticky;
 }
 
@@ -35,7 +35,7 @@ main{
     height: 25px;
     background-image: linear-gradient(green,orange);
     border-radius: 7px;
-    font-size: 1.3em;
+    font-size: 2vw;
     padding: 0 10px;
     color: white;
 }
@@ -245,10 +245,9 @@ main{
 .olympic-container{
 
     height: 550px;
-    
-    background-image: url("images/olympic.png");
+    background-image: url("/images/olympic.png");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position:center;
     background-color: darkblue;
    
 }
